@@ -1,0 +1,129 @@
+ /* tela inicial da netflix */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#principal {
+    background-image: url(imgs/background.jpeg);
+    padding-bottom: 100px;
+}
+
+
+
+.botao-entrar {
+    background-color: #e50914;
+    padding: 8px 18px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+.topo {
+    padding: 28px 56px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+.paragrafo-um {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.paragrafo-dois {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+input {
+    width: 450px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    margin-top: 20px;
+
+}
+
+.vamos-la {
+    width: 200px;
+    background-color: #e50914;
+    font-size: 26px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.opcoes-linguagem {
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    background-color: #00000066;
+    height: 36px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* perguntas frequentes */
+
+#rodape {
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 100px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#botao-pergunta {
+    width: 800px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 26px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#imagem-pergunta {
+    float: right;
+    margin-top: 5px;
+}
+
+#pergunta {
+    width: 800px;
+    margin: auto;
+    background-color: #303030;
+    margin-top: 3px;
+    padding: 20px;
+    font-size: 26px;
+}

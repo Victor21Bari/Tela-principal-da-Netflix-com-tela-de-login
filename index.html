@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="estilon.css"> 
+    <title>Netflix</title>
+</head>
+
+<body>
+
+    <div id="principal">
+
+        <div class="topo">
+            <img id="logo" src="imgs/netflix.svg" alt="logo netflix">
+            <button class="botao-entrar"><a href="login.html">Entrar</a></button>
+            <select class="opcoes-linguagem">
+                <option>Português</option>
+                <option>English</option>
+            </select>
+        </div>
+
+        <div class="meio">
+            <h1>Filmes, séries e muito mais.Sem limites.</h1>
+            <p class="paragrafo-um"> Assista onde quiser. Cancele quando quiser.</pS>
+            <p class="paragrafo-dois">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
+            </p>
+        </div>
+
+        <div class="formulario">
+            <input type="email" name="email" placeholder="Email">
+            <button class="vamos-la">Vamos Lá <img src="imgs/seta.svg"></button>
+        </div>
+
+    </div>
+
+    <div id="rodape">
+        <h2>Perguntas frequentes</h2>
+        <button id="botao-pergunta">O que é a Netflix? <img id="imagem-pergunta" src="imgs/fechar.svg"></button>
+        <div id="pergunta">
+            <p class="paragrafo">A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e
+                documentários premiados em milhares de aparelhos conectados à internet.</p> <br>
+            <p class="paragrafo"> Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem
+                comerciais – tudo por um
+                preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries
+                e filmes.</p>
+        </div>
+    </div>
+
+   <script>
+       let botao = document.getElementById('botao-pergunta') 
+       let menu = document.getElementById('pergunta')
+       botao.addEventListener('click', apertar)
+
+       function apertar(){
+              if (menu.style.display == 'none'){
+                  menu.style.display = 'block'
+              } else{
+                  menu.style.display = 'none'
+              }
+       }
+
+   </script>
+
+   
+</body>
+
+</html>

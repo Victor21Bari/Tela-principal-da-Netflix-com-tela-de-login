@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Login</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/netflix.svg" alt="logo principal">
+    </header>
+
+    <div id="container">
+        <div id="dentro">
+            <div id="parte-1">
+                <h1>Entrar</h1>
+                <input type="email" placeholder="Email ou número de telefone" class="email">
+                <input type="password" placeholder="Senha" class="senha">
+                <button class="botao-entrar">Entrar</button>
+                <label>
+                    <input type="checkbox" class="check">
+                    <span>Lembre-se de mim</span>
+                </label>
+                <a href="#" class="suporte">Precisa de ajuda?</a>
+            </div>
+            <div id="parte-2">
+                <img src="imgs/logo-face-pequeno.png" class="image-face">
+                <span>Conectar com o facebook</span>
+            </div>
+            <div id="parte-3">
+                <span>Novo por aqui?</span>
+                <a href="#">Assine agora</a>
+            </div>
+            <div id="final">
+                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.<a href="#"> Saiba
+                        mais.</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(imgs/background.jpeg);
+            font-family: sans-serif;
+        }
+
+        header {
+            padding: 30px;
+        }
+
+        #container {
+            background-color: #000000bf;
+            width: 450px;
+            height: 580px;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+
+        #dentro {
+            width: 100%;
+            height: 300px;
+            margin: auto;
+            margin: 0px 0px 90px;
+            padding: 60px 68px 40px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .email,
+        .senha {
+            width: 100%;
+            height: 50px;
+            border-radius: 4px;
+            border: 0;
+            line-height: 50px;
+            padding: 15px;
+            margin-top: 20px;
+            color: #8c8c8c;
+            font-size: 16px;
+            background: #333333;
+        }
+
+        button {
+            width: 100%;
+            height: 50px;
+            color: #ffffff;
+            background-color: #e50914;
+            border-radius: 4px;
+            border: 0;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 16px;
+            margin: 24px 0px 12px;
+            font-weight: bold;
+        }
+
+        label,
+        .suporte {
+            font-size: 13px;
+            color: #B3B3B3;
+            text-decoration: none;
+        }
+
+        .suporte {
+            margin-left: 80px;
+        }
+
+       
+        #parte-2 {
+            margin: 20px;
+            color: #737373;
+            margin-top: 30px;
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+        .image-face{
+            width: 20px;
+            height: 20px;
+            margin: 0px 10px 0px 0px;
+        }
+        #parte-3 {
+            font-size: 16px;
+            color: #737373;
+            margin-top: 25px;
+        }
+
+        #parte-3 a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        #final {
+            font-size: 13px;
+            color: #8c8c8c;
+            margin-top: 25px;
+        }
+    </style>
+
+</body>
+
+</html>
